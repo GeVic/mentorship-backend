@@ -26,3 +26,6 @@ global:
   repository: null
   sc: git
   workspace_type: Application
+container_commands:
+  01_wsgipass:
+    command: 'echo "WSGIPassAuthorization On" >> ../wsgi.conf'
